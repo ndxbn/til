@@ -1,0 +1,12 @@
+- name: do assert
+  import_tasks: assert.yml
+
+- name: systemd configuration
+  include_tasks: systemd.yml
+  loop: "{{ports}}"
+  loop_control:
+    loop_var: port
+
+- name: do assertion
+  import_tasks: assert.yml
+

@@ -1,0 +1,6 @@
+- name: const service_name
+  set_fact:
+    service_name: "redis_{{port}}"
+- name: debug print
+  debug:
+    msg: "service name is {{service_name}}, port num is {{port}}"

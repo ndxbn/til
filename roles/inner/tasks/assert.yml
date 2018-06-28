@@ -1,0 +1,5 @@
+- name: assrtion
+  assert:
+    that: service_name is undefined
+  ignore_errors: true
+

@@ -1,0 +1,6 @@
+all:
+  hosts:
+    localhost:
+      ports:
+        - 7001
+        - 7002
