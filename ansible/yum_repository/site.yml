@@ -1,0 +1,8 @@
+- hosts: all
+  become: yes
+  tasks:
+    - name: foo yum repo
+      yum_repository:
+        name: foo
+        description: for example, mysql community server
+        baseurl: http://repo.mysql.com/yum/mysql-5.7-community/el/6/$basearch/
