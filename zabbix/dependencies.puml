@@ -14,6 +14,6 @@ server <-- sender : send data
 
 actor Administrator
 Administrator -> web : setting, monitoring
+web -> server  : update maseter data, look up data
 
-web -> server  : see data
 @enduml
