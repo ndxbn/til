@@ -1,0 +1,19 @@
+@startuml
+package target {
+  node "zabbix-agent" as agent
+  node "zabbix-sender" as sender
+}
+package monitor {
+  database "zabbix-server" as server
+  node "zabbix-web" as web
+}
+
+server <-- agent : send data
+server --> agent : ping
+server <-- sender : send data
+
+actor Administrator
+Administrator -> web : setting, monitoring
+web -> server  : update maseter data, look up data
+
+@enduml
