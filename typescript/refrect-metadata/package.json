@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "refrect-metadata",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "tsc -p .",
+    "test": "node lib/index.js"
+  },
+  "devDependencies": {
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.3.3333"
+  }
+}
