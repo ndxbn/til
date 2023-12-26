@@ -10,7 +10,14 @@ def get_score(result, selected):
 
     return score
 
-my_score = 0
-for n in range(3):
-    my_score += get_score(result[n], selected[n])
-    print(my_score)
+selectedList = []
+resultList = []
+counter = 1
+while True:
+    select = input(str(counter) + "にんめ: ")
+    if(select == ""): break
+
+    selectedList.append(select)
+    counter += 1
+
+print(selectedList)
