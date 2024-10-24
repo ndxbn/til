@@ -10,6 +10,6 @@
   },
   "devDependencies": {
     "reflect-metadata": "^0.1.13",
-    "typescript": "^3.3.3333"
+    "typescript": "^5.0.0"
   }
 }
