@@ -1,6 +1,5 @@
-## 本のタイトル
+## The XP series
 国会図書館サーチ： https://ndlsearch.ndl.go.jp/books/R100000136-I1130000795369245824
-ISBN： X
 
 ## 本の一覧
 
