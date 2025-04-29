@@ -9,7 +9,7 @@
     "test": "node lib/index.js"
   },
   "devDependencies": {
-    "reflect-metadata": "^0.1.13",
-    "typescript": "^3.3.3333"
+    "reflect-metadata": "0.1.13",
+    "typescript": "3.3.3333"
   }
 }
