@@ -1,3 +1,10 @@
-[2025年8月18日 に ndxbn/til は ndxbn/sandbox へ移動しました](https://github.com/ndxbn/sandbox)
+[2025年8月18日 に、当時 ndxbn/til だったリポジトリは ndxbn/sandbox へ移動し](https://github.com/ndxbn/sandbox)、そのままアーカイブされました。
 
-また、[zenn のスクラップ](https://zenn.dev/ndxbn?tab=scraps)を til 代わりに使っています。
+日々のアウトプットは [ndxbn.github.io/_posts](https://github.com/ndxbn/ndxbn.github.io/tree/main/_posts) に置くようになりました。
+
+```mermaid
+flowchart TD
+
+    A(AI Chat Discussion) -->|chat log| B[GitHub ndxbn/ndxbn.github.io/_posts/]
+    B -->|summerize| hatena[ndxbn.hatenablog.jp Article]
+```
