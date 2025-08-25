@@ -5,6 +5,6 @@
 ```mermaid
 flowchart TD
 
-    A(AI Chat Discussion) -->|chat log| B[GitHub ndxbn/ndxbn.github.io/_posts/]
+    A[AI Chat Discussion] -->|chat log| B[GitHub ndxbn/ndxbn.github.io/_posts/]
     B -->|summerize| hatena[ndxbn.hatenablog.jp Article]
 ```
